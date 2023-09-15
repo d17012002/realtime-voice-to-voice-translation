@@ -5,7 +5,7 @@ import SpeechRecognition, {
 } from "react-speech-recognition";
 import { useEffect, useState, useRef } from "react";
 
-const socket = io.connect("http://localhost:3001");
+const socket = io.connect("https://v2v-backend.onrender.com");
 
 const languageOptions = [
   { label: "English (India)", value: "en-IN" },
